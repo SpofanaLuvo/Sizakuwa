@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap');
+
+.hero__content h2 {
+  font-weight: 600;
+  line-height: 55px;
+}
+
+.hero__content, .hero-img {
+  padding-top: 75px;
+}
+
+.hero-img img {
+  border-radius: 15px;
+}
+
+.hero-landing{
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 600;
+}

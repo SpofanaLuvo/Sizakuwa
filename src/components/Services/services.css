@@ -1,0 +1,31 @@
+.single__service__item {
+  padding: 20px;
+}
+
+.service__img img {
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.enroll a {
+  text-decoration: none;
+  font-family: "Comfortaa", cursive;
+  font-weight: 600;
+  font-size: 1.2rem;
+  color: #17bf9e;
+}
+
+.info {
+  font-size: 1.2rem;
+  color: #0a2b1e;
+  font-weight: 600;
+}
+
+.service__title {
+  line-height: 2rem;
+  font-weight: 600;
+}
+
+.service__top__left h2 {
+  font-weight: 600;
+}
