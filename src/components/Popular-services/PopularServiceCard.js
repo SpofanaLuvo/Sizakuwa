@@ -10,7 +10,7 @@ const PopularServiceCard = (props) => {
       </div>
 
       <div className="service__details">
-        <h6>{title}</h6>
+        <h5>{title}</h5>
 
         <div className=" d-flex align-items-center gap-5">
           <span className=" d-flex align-items-center gap-2 service__text">

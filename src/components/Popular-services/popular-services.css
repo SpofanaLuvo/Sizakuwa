@@ -16,7 +16,8 @@
   border-radius: 10px;
 }
 .service__text {
-  font-family: "Nunito Sans", sans-serif;
+  font-size: 1.2rem;
+  font-family: "Comfortaa", cursive;
   font-weight: 600;
 }
 .service__details h6,

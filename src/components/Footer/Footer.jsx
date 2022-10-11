@@ -19,26 +19,26 @@ const footerQuickLinks = [
   },
 ];
 
-const footerInfoLinks = [
-  {
-    display: "Privacy Policy",
-    url: "#",
-  },
-  {
-    display: "Membership",
-    url: "#",
-  },
+// const footerInfoLinks = [
+//   {
+//     display: "Privacy Policy",
+//     url: "#",
+//   },
+//   {
+//     display: "Membership",
+//     url: "#",
+//   },
 
-  {
-    display: "Purchases Guide",
-    url: "#",
-  },
+//   {
+//     display: "Purchases Guide",
+//     url: "#",
+//   },
 
-  {
-    display: "Terms of Service",
-    url: "#",
-  },
-];
+//   {
+//     display: "Terms of Service",
+//     url: "#",
+//   },
+// ];
 
 const Footer = () => {
   return (
