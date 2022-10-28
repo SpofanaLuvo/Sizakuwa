@@ -1,8 +1,9 @@
 import React from "react";
 import { Container, Row, Col } from "reactstrap";
-import courseImg1 from "../../assets/images/web-design.png";
-import courseImg2 from "../../assets/images/graphics-design.png";
-import courseImg3 from "../../assets/images/ui-ux.png";
+import courseImg1 from "../../assets/images/online.png";
+import courseImg2 from "../../assets/images/test.jpg";
+import courseImg3 from "../../assets/images/coaching.jpg";
+import courseImg4 from "../../assets/images/homeschool.jpg";
 import "./services.css";
 import ServiceCard from "./ServiceCard";
 
@@ -31,7 +32,7 @@ const servicesData = [
     id: "04",
     title: "Homeschooling",
     info: "We take a comprehensive and collaborative approach in creating a plan and program that is right for every student. Adjusting to different personalities and specific academic needs, we always find what works best. ",
-    imgUrl: courseImg3,
+    imgUrl: courseImg4,
   },
 ];
 

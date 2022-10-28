@@ -9,7 +9,7 @@ const HeroSection = () => {
     <section>
       <Container>
         <Row>
-          <Col lg="6" md="6">
+          <Col lg="6" md="12">
             <div className="hero__content">
               <h2 className="mb-4 hero__title">
                 Empowering Students For <br /> Academic Success
@@ -25,7 +25,7 @@ const HeroSection = () => {
             </div>
           </Col>
 
-          <Col lg="6" md="6">
+          <Col lg="6" md="12">
             <div className="hero-img">
               <img src={tutor} alt="" className="w-100" />
             </div>

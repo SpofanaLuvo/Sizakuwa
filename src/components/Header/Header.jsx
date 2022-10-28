@@ -32,11 +32,11 @@ const Header = () => {
       <Container>
         <div className="navigation d-flex align-items-center justify-content-between">
           <div className="logo">
-            <h1 className=" d-flex align-items-center gap-1">
+            <h2 className=" d-flex align-items-center gap-1">
               <b>
                 <i className="ri-book-open-line"></i> Sizakuwa Consultancy
               </b>
-            </h1>
+            </h2>
           </div>
 
           <div className="nav d-flex align-items-center gap-5">

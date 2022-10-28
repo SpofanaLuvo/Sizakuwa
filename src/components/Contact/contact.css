@@ -1,3 +1,13 @@
 .hala{
     font-size:17x;
 }
+.follows{
+    font-size: 3rem;
+}
+.contact-form{
+    width:90%;
+    padding-left: 15%;
+}
+.sendus, .contact-labels{
+    color: #0a2b1e;
+}

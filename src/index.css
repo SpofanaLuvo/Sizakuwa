@@ -13,8 +13,8 @@
 
 section,
 footer {
-  padding-top: 50px;
-  padding-bottom: 30px;
+  padding-top: 30px;
+  padding-bottom: 20px;
 }
 h1,
 h2,
@@ -42,7 +42,7 @@ button.btn {
   background: #17bf9e;
   color: #fff;
   padding: 7px 25px;
-  border-radius: 50px;
+  border-radius: 10px;
 }
 
 i {

@@ -1,10 +1,10 @@
 import React from "react";
 import { Container, Row, Col } from "reactstrap";
 
-import courseImg01 from "../../assets/images/web-development.png";
-import courseImg02 from "../../assets/images/kids-learning.png";
-import courseImg03 from "../../assets/images/seo.png";
-import courseImg04 from "../../assets/images/ui-ux.png";
+import courseImg01 from "../../assets/images/oneonone.jpg";
+import courseImg02 from "../../assets/images/10.jpg";
+import courseImg03 from "../../assets/images/coach.jpg";
+import courseImg04 from "../../assets/images/coaching1.png";
 import PopularServiceCard from "./PopularServiceCard";
 
 import "./popular-services.css";
@@ -13,14 +13,14 @@ const freeCourseData = [
   {
     id: "01",
     title: "One-on One Tutoring",
-    imgUrl: courseImg02,
+    imgUrl: courseImg01,
     was: "R250.00",
     now: "",
   },
   {
     id: "02",
     title: "10 Lessons Package",
-    imgUrl: courseImg01,
+    imgUrl: courseImg02,
     was: "Was: R2500.00",
     now: "Now: R1875.00",
   },
@@ -52,7 +52,7 @@ const PopularServices = () => {
           </Col>
 
           {freeCourseData.map((item) => (
-            <Col lg="3" md="4" className="mb-4" key={item.id}>
+            <Col lg="3" md="6" sm="12" className="mb-4" key={item.id}>
               <PopularServiceCard item={item} />
             </Col>
           ))}
