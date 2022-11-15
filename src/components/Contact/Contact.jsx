@@ -4,7 +4,7 @@ import "bootstrap/dist/css/bootstrap.css";
 // import Form from "react-bootstrap/Form";
 // import Button from "react-bootstrap/Button";
 import { Container, Row, Col } from "reactstrap";
-import "./contact.css"
+import "./contact.css";
 import { Button, Form, FormGroup, Label, Input, FormText } from "reactstrap";
 
 require("dotenv").config();
@@ -23,9 +23,10 @@ const Contact = () => {
       )
       .then(
         (result) => {
-          
-          console.log(result.text);
-          document.getElementById("contact-form").reset()
+          alert("Message sent. Thank you for writing to us.");
+
+          window.location.reload();
+          document.getElementById("contact-form").reset();
         },
         (error) => {
           console.log(error.text);
@@ -33,27 +34,20 @@ const Contact = () => {
       );
   };
   return (
-    <section>
+    <section id="contact" className="mb-1">
       <Container>
         <Col lg="12" className="text-center  mb-5">
           <h2 className="fw-bold">Contact </h2>
         </Col>
-        <Row>
+        <Row className="mt-5 mb-5">
           <Col lg="6" md="12">
             <Col className="text-center">
               <br />
-              <p>
-                Address: White River, 1240, South Africa
-              </p>
+              <p>Address: White River, 1240, South Africa</p>
               <br />
-              <p>
-                {" "}
-                Phones: +27 76 920 5917
-              </p>
+              <p> Phone: +27 76 920 5917</p>
               <br />
-              <p>
-                Emails: sizatutoring@gmail.com
-              </p>
+              <p>Email: sizatutoring@gmail.com</p>
               <br />
               <div className="follows">
                 {/* <span>
@@ -72,23 +66,25 @@ const Contact = () => {
 
                 <span>
                   {" "}
-                  <a href="facebook.com">
+                  <a href="linkedin.com">
                     <i class="ri-linkedin-line"></i>
                   </a>
                 </span>
 
-                <span>
+                {/* <span>
                   {" "}
                   <a href="facebook.com">
                     <i class="ri-twitter-line"></i>
                   </a>
-                </span>
+                </span> */}
               </div>
             </Col>
           </Col>
           <Col>
             <Col lg="6" md="12" className="contact-form">
-              <p className="col-sm-text-center sendus mb-4">Send us a message.</p>
+              <p className="col-sm-text-center sendus mb-4">
+                Send us a message.
+              </p>
               <Form onSubmit={sendEmail} id="contact-form">
                 <FormGroup className="input">
                   <Label for="name">
@@ -122,6 +118,6 @@ const Contact = () => {
       </Container>
     </section>
   );
-}
+};
 
-export default Contact
+export default Contact;

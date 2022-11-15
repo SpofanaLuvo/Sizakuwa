@@ -8,20 +8,25 @@ import Footer from "../components/Footer/Footer";
 import PopularServices from "../components/Popular-services/PopularServices";
 // import { Company } from "sib-api-v3-sdk";
 import Contact from "../components/Contact/Contact";
+
+import { BrowserRouter} from "react-router-dom"
+
 const Home = () => {
   return (
-    <Fragment>
-      <Header />
-      <HeroSection />
-      <AboutUs />
-      <Services />
-      <PopularServices />
-      {/* <Company /> */}
-      {/* <ChooseUs /> */}
-      {/* <Features /> */}
-      <Contact />
-      {/* <Footer /> */}
-    </Fragment>
+    <BrowserRouter>
+      <Fragment>
+        <Header />
+        <HeroSection />
+        <AboutUs />
+        <Services />
+        <PopularServices />
+        {/* <Company /> */}
+        {/* <ChooseUs /> */}
+        {/* <Features /> */}
+        <Contact />
+        {/* <Footer /> */}
+      </Fragment>
+    </BrowserRouter>
   );
 };
 

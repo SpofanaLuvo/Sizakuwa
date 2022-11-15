@@ -6,8 +6,8 @@ import "./about.css";
 
 const AboutUs = () => {
   return (
-    <section>
-      <Container className="mt-0">
+    <section id="about" className="mb-4">
+      <Container>
         <Row className="about-section mt-0">
           <div className="text-center ">
             <h2>Who We Are</h2>

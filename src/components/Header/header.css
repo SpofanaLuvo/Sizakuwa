@@ -2,8 +2,12 @@
 
 .header {
   width: 100%;
-  height: 30px;
+  height: 80px;
   line-height: 80px;
+  position: fixed;
+  background: #a0f1d1;
+  color: #fff;
+  z-index: 100;
 }
 /* .nav__menu{
   

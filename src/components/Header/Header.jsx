@@ -5,20 +5,20 @@ import "./header.css";
 const navLinks = [
   {
     display: "Home",
-    url: "#",
+    url: "#header",
   },
   {
     display: "About",
-    url: "#",
+    url: "#about",
   },
   {
     display: "Services",
-    url: "#",
+    url: "#services",
   },
 
   {
-    display: "Courses",
-    url: "#",
+    display: "Contact",
+    url: "#contact",
   },
 ];
 
@@ -28,7 +28,7 @@ const Header = () => {
   const menuToggle = () => menuRef.current.classList.toggle("active__menu");
 
   return (
-    <header className="header">
+    <header bgColor="#0a2b1e" className="header">
       <Container>
         <div className="navigation d-flex align-items-center justify-content-between">
           <div className="logo">
@@ -54,7 +54,8 @@ const Header = () => {
 
             <div className="nav__right">
               <p className="mb-0 d-flex align-items-center gap-2">
-                <i className="ri-phone-line"></i> <b className="phoneNumber">+27 76 920 5917</b>
+                <i className="ri-phone-line"></i>{" "}
+                <b className="phoneNumber">+27 76 920 5917</b>
               </p>
             </div>
           </div>

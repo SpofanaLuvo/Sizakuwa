@@ -44,9 +44,9 @@ const freeCourseData = [
 
 const PopularServices = () => {
   return (
-    <section>
+    <section id="popular-services" className="mb-3 popular">
       <Container>
-        <Row>
+        <Row >
           <Col lg="12" className="text-center mb-5">
             <h2 className="fw-bold">Our Popular Services</h2>
           </Col>
