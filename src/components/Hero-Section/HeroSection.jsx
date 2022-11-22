@@ -6,7 +6,7 @@ import "./hero-section.css";
 
 const HeroSection = () => {
   return (
-    <section>
+    <section id="hero">
       <Container>
         <Row>
           <Col lg="6" md="12">

@@ -9,16 +9,27 @@
   color: #fff;
   z-index: 100;
 }
-/* .nav__menu{
-  
-} */
+.logo{
+   font-size: 2.5rem;
+}
+
+.logo a{
+  text-decoration: none;
+  color: #0a2b1e;
+}
+.logo a:hover {
+  color: #17bf9e;
+}
+.logo a:after {
+   color: #0a2b1e;
+}
 .nav-links{
   /* font-family: "Comfortaa", cursive; */
-  font-size: 1.4rem;
+  font-size: 2.1rem;
   /* font-weight: 600; */
 }
 .phoneNumber{
-font-size:1.4rem
+font-size:2rem
 }
 
 .nav__list {
@@ -50,10 +61,6 @@ font-size:1.4rem
   font-weight: 900;
 }
 
-.nav__right p i {
-  font-size: 1.3rem;
-  font-weight: 600;
-}
 
 .mobile__menu span i {
   font-size: 1.4rem;

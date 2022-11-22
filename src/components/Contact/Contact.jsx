@@ -50,13 +50,6 @@ const Contact = () => {
               <p>Email: sizatutoring@gmail.com</p>
               <br />
               <div className="follows">
-                {/* <span>
-                  {" "}
-                  <a href="facebook.com">
-                    <i class="ri-facebook-line"></i>
-                  </a>
-                </span> */}
-
                 <span>
                   {" "}
                   <a href="https://www.instagram.com/sizakuwa/">
@@ -64,19 +57,6 @@ const Contact = () => {
                   </a>
                 </span>
 
-                <span>
-                  {" "}
-                  <a href="linkedin.com">
-                    <i class="ri-linkedin-line"></i>
-                  </a>
-                </span>
-
-                {/* <span>
-                  {" "}
-                  <a href="facebook.com">
-                    <i class="ri-twitter-line"></i>
-                  </a>
-                </span> */}
               </div>
             </Col>
           </Col>

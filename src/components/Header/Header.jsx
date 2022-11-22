@@ -3,10 +3,7 @@ import { Container } from "reactstrap";
 import "./header.css";
 
 const navLinks = [
-  {
-    display: "Home",
-    url: "#header",
-  },
+
   {
     display: "About",
     url: "#about",
@@ -32,9 +29,10 @@ const Header = () => {
       <Container>
         <div className="navigation d-flex align-items-center justify-content-between">
           <div className="logo">
-            <h2 className=" d-flex align-items-center gap-1">
+            <h2 className=" d-flex logo align-items-center gap-1">
               <b>
-                <i className="ri-book-open-line"></i> Sizakuwa Consultancy
+                <i className="ri-book-open-line "></i>{" "}
+                <a href="#hero">SIZAKUWA</a>
               </b>
             </h2>
           </div>
@@ -54,8 +52,10 @@ const Header = () => {
 
             <div className="nav__right">
               <p className="mb-0 d-flex align-items-center gap-2">
-                <i className="ri-phone-line"></i>{" "}
-                <b className="phoneNumber">+27 76 920 5917</b>
+                <span>
+                  <i className="fa-brands  fa-tiktok fa-2xl"></i>{" "}
+                </span>
+                <b className="phoneNumber">studywithsiza</b>
               </p>
             </div>
           </div>
