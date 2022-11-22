@@ -14,12 +14,6 @@ const ServiceCard = (props) => {
         <div className=" d-flex justify-content-between align-items-center">
           <p className="info d-flex align-items-center gap-1">{info}</p>
         </div>
-
-        {/* <div className=" d-flex justify-content-between align-items-center">
-          <span className="enroll">
-            <a href="#"> Enroll Now</a>
-          </span>
-        </div> */}
       </div>
     </div>
   );

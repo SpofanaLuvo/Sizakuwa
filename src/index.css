@@ -22,12 +22,10 @@ h3,
 h4,
 h5,
 h6 {
-  /* font-size: 2rem; */
   line-height: 50px;
   
   font-family: "Comfortaa", cursive;
   color: #0a2b1e;
-  /* font-weight: 700; */
 }
 
 p {
@@ -40,14 +38,13 @@ p {
 
 button.btn {
   background: #aafada;
-  color: rgb(0, 0, 0);
+  color:  #0a2b1e;
   padding: 5px 20px;
   border-radius: 10px;
-  border: 1px solid rgb(1, 141, 106);
+  border: 1px solid  #0a2b1e;
   font-size: 20px;
 }
 
 i {
-  color: #076350;
-  /* font-size: 110%; */
+  color:  #0a2b1e;
 }

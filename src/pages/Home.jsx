@@ -5,7 +5,7 @@ import AboutUs from "../components/About-us/AboutUs";
 import Services from "../components/Services/Services";
 import PopularServices from "../components/Popular-services/PopularServices";
 import Contact from "../components/Contact/Contact";
-
+import Footer from "../components/Footer/Footer";
 import { BrowserRouter} from "react-router-dom"
 
 const Home = () => {
@@ -18,6 +18,7 @@ const Home = () => {
         <Services />
         <PopularServices />
         <Contact />
+        <Footer />
       </Fragment>
     </BrowserRouter>
   );

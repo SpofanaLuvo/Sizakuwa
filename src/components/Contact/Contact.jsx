@@ -1,11 +1,9 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import "bootstrap/dist/css/bootstrap.css";
-// import Form from "react-bootstrap/Form";
-// import Button from "react-bootstrap/Button";
 import { Container, Row, Col } from "reactstrap";
 import "./contact.css";
-import { Button, Form, FormGroup, Label, Input, FormText } from "reactstrap";
+import { Button, Form, FormGroup, Label, Input } from "reactstrap";
 
 require("dotenv").config();
 const Contact = () => {
