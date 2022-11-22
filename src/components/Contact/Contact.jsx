@@ -54,7 +54,6 @@ const Contact = () => {
                     <i class="ri-instagram-line"></i>
                   </a>
                 </span>
-
               </div>
             </Col>
           </Col>
@@ -88,7 +87,9 @@ const Contact = () => {
                   </Label>
                   <Input type="textarea" name="message" id="message" />
                 </FormGroup>
-                <Button>Send Message</Button>
+                <span className="text-center">
+                  <Button>Send Message</Button>
+                </span>
               </Form>
             </Col>
           </Col>
