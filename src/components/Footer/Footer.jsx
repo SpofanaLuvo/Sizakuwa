@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <Container>
         <div className="text-center">
-            <p className="dev_name">COPYRIGHT &copy; 2022 ANAFOPS TECH SOLUTIONS. ALL RIGHTS RESERVED</p>
+            <p className="dev_name">COPYRIGHT &copy; 2022 ORB WEAVER. ALL RIGHTS RESERVED</p>
         </div>
       </Container>
   );
